@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Suggest me Anime!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="flex-column">
+    <header>
+      <div class="title">Suggest me an Anime!</div>
+      <nav>
+        <ul class="flex">
+          <li id="nav-animes">Animes</li>
+          <li id="nav-info">My Info</li>
+        </ul>
+      </nav>
+    </header>
+    <div class="intro">
+      Tertarik untuk menonton anime? <br />Tapi bingung anime apa yang menarik?
+      <br />Temukan rekomendasi anime di sini!
+    </div>
+    <main class="flex">
+      <div class="content">
+        <div><h1>Rekomendasi Anime</h1></div>
+        <div class="flex-row flex-wrap" id="container-articles"></div>
+      </div>
+      <aside id="aside">
+        <div class="button text-shadow" id="exit-aside">❌</div>
+        <img src="assets/intro.png" alt="" />
+        <p>
+          Hai! Saya Islamiawan Teguh Pribadi, seorang mahasiswa Teknik
+          Informatika. <br /><br />
+          Website ini terinspirasi dari fitur menampilkan rekomendasi anime pada
+          situs MAL dan AniList. Daftar anime di sini diambil dari hasil query
+          API AniList, kemudian disimpan secara statis pada sebuah file.
+          Kedepannya saya akan membuat list di sini menjadi dinamis, langsung
+          diambil dari API AniList. <br /><br /><br />Rate 5⭐ tugas ini dan di
+          <a href="https://github.com/Teguhpunya">GitHub saya</a> , oke? 😉
+        </p>
+      </aside>
+    </main>
+    <div id="anime-detail">
+      <div class="button text-shadow" id="exit-detail">❌</div>
+      <div id="anime-detail-content"></div>
+    </div>
+    <div class="button text-shadow" id="to-top">👆</div>
+    <footer>
+      Created with 💖 by <a href="https://github.com/Teguhpunya">Teguhpunya</a>
+    </footer>
+  </body>
+
+  <script src="main.js"></script>
+</html>
